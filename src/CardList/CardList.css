@@ -2,5 +2,14 @@
 @value cardList_back from colors;
 
 .wrapper{
+    padding-left: 20px;
+    grid-area: list;
     background-color: cardList_back ;
+}
+
+.table{
+    padding-top: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
