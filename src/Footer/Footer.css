@@ -1,5 +1,6 @@
-
+@value colors: '../Styles/Colors.css';
+@value footer_back from colors;
 
 .footer{
-    background-color: #26495c;
+    background-color: footer_back;
 }

@@ -1,3 +1,6 @@
+@value colors: '../Styles/Colors.css';
+@value header_back from colors;
+
 .header{
-    background-color: #ccc;
+    background-color: header_back;
 }

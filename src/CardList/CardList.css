@@ -1,3 +1,6 @@
+@value colors: '../Styles/Colors.css';
+@value cardList_back from colors;
+
 .wrapper{
-    background-color: #e5e5dc ;
+    background-color: cardList_back ;
 }

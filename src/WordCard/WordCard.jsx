@@ -1,5 +1,5 @@
 import React from "react";
-import s from "./WordCard.module.css"
+import s from "./WordCard.css"
 
 function WordCard(){
     return(
