@@ -2,5 +2,6 @@
 @value header_back from colors;
 
 .header{
+    grid-area: h;
     background-color: header_back;
 }

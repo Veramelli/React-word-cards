@@ -2,5 +2,6 @@
 @value card_back from colors;
 
 .wrapper{
+    grid-area: card;
     background-color: card_back  ;
 }

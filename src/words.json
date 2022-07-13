@@ -1,0 +1,66 @@
+[
+  {
+    "id": "11347",
+    "english": "car",
+    "transcription": "[ kɑ: ]",
+    "russian": "автомобиль",
+    "tags": "транспорт",
+    "tags_json": "[\"u0442u0440u0430u043du0441u043fu043eu0440u0442\"]"
+  },
+  {
+    "id": "11350",
+    "english": "arm",
+    "transcription": "[ ɑ:m ]",
+    "russian": "рука",
+    "tags": "часть тела",
+    "tags_json": "[\"u0447u0430u0441u0442u044c u0442u0435u043bu0430\"]"
+  },
+  {
+    "id": "11354",
+    "english": "air",
+    "transcription": "[  eər ]",
+    "russian": "воздух",
+    "tags": "природа",
+    "tags_json": "[\"u043fu0440u0438u0440u043eu0434u0430\"]"
+  },
+  {
+    "id": "11397",
+    "english": "tea",
+    "transcription": "[ tiː ]",
+    "russian": "чай",
+    "tags": "напиток",
+    "tags_json": "[\"u043du0430u043fu0438u0442u043eu043a\"]"
+  },
+  {
+    "id": "11452",
+    "english": "beach",
+    "transcription": "[biːtʃ]",
+    "russian": "пляж",
+    "tags": "места",
+    "tags_json": "[\"u043cu0435u0441u0442u0430\"]"
+  },
+  {
+    "id": "11509",
+    "english": "apple",
+    "transcription": "[æpl]",
+    "russian": "яблоко",
+    "tags": "фрукты",
+    "tags_json": "[\"u0444u0440u0443u043au0442u044b\"]"
+  },
+  {
+    "id": "11510",
+    "english": "cat",
+    "transcription": "[cat]",
+    "russian": "кошка",
+    "tags": "животные",
+    "tags_json": "[\"u0436u0438u0432u043eu0442u043du044bu0435\"]"
+  },
+  {
+    "id": "11511",
+    "english": "instance",
+    "transcription": "[ˈinstəns]",
+    "russian": "экземпляр",
+    "tags": "инстенс",
+    "tags_json": "[\"u0438u043du0441u0442u0435u043du0441\"]"
+  }
+]

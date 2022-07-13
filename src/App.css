@@ -1,4 +1,17 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  display: grid;
+  grid-template-areas:
+  "h h h"
+  ". card ."
+  "list list list"
+  "f f f";
+  grid-template-rows: 6rem 18rem 1fr 100px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
+button:hover{
+  cursor: pointer;
+}

@@ -1,36 +1,35 @@
 import React from "react";
-import s from "./CardList.css"
+import s from "./CardList.css";
+import Row from "./Cardrow";
+import words from "../words.json";
 
-function CardList(){
-    return(
-        <div className={s.wrapper}>
-            <table>
-            <tr>
-                    <td>
-                        <div>#</div>
-                    </td>
-                    <td><div>Слово</div></td>
-                    <td><div>Перевод</div></td>
-                    <td><div>Транскрипция</div></td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        1
-                    </td>
-                    <td><div><input type='text'></input></div></td>
-                    <td><div><input type='text'></input></div></td>
-                    <td><div><input type='text'></input></div></td>
-                    <td>
-                        <button>Сохранить</button>
-                        <button>Редактировать</button>
-                        <button>Удалить</button>
-                    </td>
-                </tr>
-            </table>
+function CardList() {
+  return (
+    <div className={s.wrapper}>
+      <div className={s.table}>
+        <div>
+          <input type="text"></input>
         </div>
-    )
+        <div>
+          <input type="text"></input>
+        </div>
+        <div>
+          <input type="text"></input>
+        </div>
+        <div>
+          <input type="text"></input>
+        </div>
+        <div>
+          <button>Сохранить</button>
+          <button>Редактировать</button>
+          <button>Удалить</button>
+        </div>
+      </div>
+      {words.map((el) => (
+        <Row word={el} />
+      ))}
+    </div>
+  );
 }
 
 export default CardList;
