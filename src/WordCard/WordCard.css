@@ -21,6 +21,11 @@
     font-style:oblique;
 }
 
+.russian{
+    font-size: xx-large;
+    color: header_back;
+}
+
 .check__button{
     background-color: header_back;
     width: 40%;
@@ -29,8 +34,4 @@
    height: 30px;
    color: wheat;
    font-size: large;
-}
-
-.selected{
-    display: none;
 }
