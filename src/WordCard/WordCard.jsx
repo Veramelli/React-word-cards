@@ -15,10 +15,10 @@ const handleChange = () =>{
     <div className={s.wrapper}>
       <div className={s.english}>Car</div>
       <div className={s.transcription}>[kɑ:]</div>
-      {pressed && <div className={s.russian}>
+      {pressed ? <div className={s.russian}>
         Автомобиль
-      </div>}
-      <button onClick={handleChange} className={s.check__button}>Проверить</button>
+      </div> : <button onClick={handleChange} className={s.check__button}>Проверить</button>}
+      
     </div>
   );
 }
