@@ -1,7 +1,36 @@
 @value colors: '../Styles/Colors.css';
-@value card_back from colors;
+@value card_back, header_back from colors;
 
 .wrapper{
+    border-radius: 2rem;
     grid-area: card;
-    background-color: card_back  ;
+    background-color: card_back;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.english{
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
+.transcription{
+    font-style:oblique;
+}
+
+.check__button{
+    background-color: header_back;
+    width: 40%;
+    border-radius: 2rem;
+   border: header_back;
+   height: 30px;
+   color: wheat;
+   font-size: large;
+}
+
+.selected{
+    display: none;
 }
